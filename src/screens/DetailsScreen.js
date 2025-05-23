@@ -10,7 +10,7 @@ export default function DetailsScreen({ navigation }) {
             <View style={styles.buttonContainer}>
                 <Button 
                     title="Go to Profile"
-                    onPress={() => navigation.navigate(Profile)}
+                    onPress={() => navigation.navigate('Profile')}
                 />
             </View>
             <View style={styles.buttonContainer}>
@@ -35,7 +35,7 @@ const styles = StyleSheet.create({
         marginBottom: 20,
     },
     buttonContainer: {
-        backgroundColor: '#ffebcd',
+        backgroundColor: '#F53831',
         margin: 10,
         width: windowWidth * 0.5,
         borderRadius: 5,
